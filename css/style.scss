@@ -52,11 +52,20 @@ body{
   }
 
   .card{
-    text-align: center;
+    text-align:start;
     margin: 1rem;
+    background-color: #151d25;
+    color: #ffffff;
+    border-color: #ffffff;
   }
 
   .btn:hover{
     background-color: #750404;
     border-color: #750404;
   }
+
+ .card-title, .card-text{
+  text-shadow: 2px 2px 2px #000000;
+ }
+
+ 
